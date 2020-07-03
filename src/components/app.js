@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import AlignMe from './alignme';
-import HideMe from './hideme';
-import Counter from './counter';
-import FontSize from './fontsize';
-import ColorMe from './colorme';
-import Clock from './clock';
+import AlignmentH from './hooks/alignmentH'
+import HideMeH from './hooks/HideMeH';
+import CounterH from './hooks/counterH';
+import FontSizeH from './hooks/fontSize';
+import ColorMeH from './hooks/colorMeH';
+import ClockH from './hooks/clockH';
 
 export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <AlignMe />
-        <HideMe />
-        <Counter />
-        <FontSize />
-        <ColorMe />
-        <Clock />
+        <AlignmentH />
+        <HideMeH />
+        <CounterH />
+        <FontSizeH />
+        <ColorMeH />
+        <ClockH />
       </div>
     );
   }
